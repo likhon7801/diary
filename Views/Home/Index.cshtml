@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Welcome Home Diary</h1>
+    <div>
+        @Html.ActionLink("Show List Diary", "List")||
+        @Html.ActionLink("Write Or Image Upload ", "Create")||
+        @Html.ActionLink("Logout", "Logout")
+    </div>
+</body>
+</html>
